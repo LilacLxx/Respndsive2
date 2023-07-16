@@ -1,1 +1,42 @@
+.container {
+    padding: 35px;
+    width: auto;
+    height: 80px;
+    background: blue;
+    color: white;
+    
+}
 
+.text-col{
+    color: blueviolet;
+}
+
+@media all and (min-width:780px) and (max-width:999px) {
+    .container{
+        padding: 35px;
+        width: auto;
+        height: 80px;
+        background: blueviolet;
+        color: white;
+        font-size: 14px;
+    }
+    .text-col{
+        color: red;
+        font-size: 12px;
+    }
+}
+
+@media all and (max-width:699px) {
+    .container{
+        padding: 35px;
+        width: auto;
+        height: 80px;
+        background: green;
+        color: yellow;
+        font-size: 10px;
+    }
+    .text-col{
+        color: rgb(0, 0, 0);
+        font-size: 10px;
+    }
+}
